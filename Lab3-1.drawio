@@ -1,0 +1,58 @@
+<mxfile host="65bd71144e">
+    <diagram id="DXxBFrQphdQlulFVt9TH" name="Page-1">
+        <mxGraphModel dx="475" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="start" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="70" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="if the number is&amp;nbsp;&lt;br&gt;&amp;lt;50" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="endArrow=classic;html=1;exitX=0.425;exitY=1.072;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="80" y="380" as="sourcePoint"/>
+                        <mxPoint x="80" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="range =1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="410" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="range =2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="410" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="range= 3" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="410" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="if the # is&amp;nbsp;&lt;br&gt;50&amp;lt;= &amp;amp; is also&amp;nbsp;&lt;br&gt;100&amp;lt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="if the # is anyhting higher than 100" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.586;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9" target="7">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="250" y="400" as="sourcePoint"/>
+                        <mxPoint x="300" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="8">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="420" y="390" as="sourcePoint"/>
+                        <mxPoint x="470" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="if" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="170" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="elif" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="170" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="else" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="160" width="80" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
